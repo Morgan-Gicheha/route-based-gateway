@@ -7,7 +7,7 @@ router.all("/", (req, res) => {
 });
 
 
-router.post("/ghana", (req, res) => {
+router.all("/ghana", (req, res) => {
     let method = req.method;
     const options = {
         method: method,
